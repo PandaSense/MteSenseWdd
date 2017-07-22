@@ -106,7 +106,10 @@ public class MteSenseInstanceUpdate {
 - target method name in your target java file for modifying, most of time you need debug operation in this method
 - your webriver instance what you have created.
 #### Step 3 :
-Change your target method code for your new operation and save to debug with webdriver. At last enjoy it ^-^.
+For example :
+- Run MteSenseWdadTest as junit
+- Change your target method code(runDynamicAction()) for your new operation and save to debug with webdriver.
+- At last enjoy it ^-^.
 #### Some important things
 - You shoul be sure about you can start webdriver with your script.
 - You only need change code in target method in your target java file for modifying.
