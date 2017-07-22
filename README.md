@@ -14,6 +14,7 @@ You need add these jars as libraries in your project to use MteSenseWdd function
 Add MteSense-Wdd-beta-0.1.1.jar into your project classpath.
 #### Step 2 :
 Create java file to build webdriver, please pay attention to your driver type like below:
+#### MteSenseWdadTest
 
 ```java
 package com.mte.wdd.test;
@@ -97,7 +98,7 @@ public class MteSenseInstanceUpdate {
         MteSenseLoader loader = new MteSenseLoader();
         loader.senseLoader("chrome","./src/MteSenseInstanceUpdate.java", "MteSenseInstanceUpdate", "http://www.baidu.com", "runDynamicAction", driver);
 ```
-There are 6 parameters for this method as below:
+#### There are 6 parameters for this method as below:
 - driver type : the driver type should be same with what you have created in your script.
 - full file path : this file shoud be target file what you need create for modifying. That means you will update this file to debug with webdriver.
 - full class name : this class name should be same with your target java file for modifying. If this java file hasn't package name, you can input class name, otherwise you need input package name+class name like com.xxx.xxx.xxx.MteSenseInstanceUpdate.
