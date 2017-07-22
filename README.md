@@ -116,6 +116,7 @@ For example :
 - Every time when you update your target method like runDynamicAction() and save, the MteSenseLoader method will compile target java file to execute new operation what you have created.
 - In target method, the webdriver parameter must be same to what you have created.
 - Sometime you also can create java file to invoke MteSenseLoader like standalone java file to handle target java file.
+- For this tool, just help you to debug your operation with webdriver include selenium and appium, you can't use debug operation to replace your real automation script.
 # Screencapture
 ![ MteSenseWdd](https://github.com/PandaSense/MteSenseWdd/blob/master/image/MteSenseWddPic001.png)
 
