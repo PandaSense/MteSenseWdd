@@ -104,7 +104,14 @@ public class MteSenseInstanceUpdate {
 - full class name : this class name should be same with your target java file for modifying. If this java file hasn't package name, you can input class name, otherwise you need input package name+class name like com.xxx.xxx.xxx.MteSenseInstanceUpdate.
 - tartget url : sometime you can keep this parameter as null, because when you debug mobile webdriver like iosdriver or androiddriver, you don't need url.
 - target method name in your target java file for modifying, most of time you need debug operation in this method
-- your webriver instance what you have created
+- your webriver instance what you have created.
+#### Step 3 :
+Change your target method code for your new operation and save to debug with webdriver. At last enjoy it ^-^.
+#### Some important things
+- You shoul be sure about you can start webdriver with your script.
+- You only need change code in target method in your target java file for modifying.
+- Every time when you update your target method like runDynamicAction() and save, the MteSenseLoader method will compile target java file to execute new operation what you have created.
+- In target method, the webdriver parameter must be same to what you have created.
 
 # Declaration
 In this project, some source codes come from internet and other test automation project, the purpose is only for sharing and communication with everyone who like test automation. If you don't want to integrate your code, please tell me to remove them. Thanks
