@@ -1,5 +1,5 @@
 # MteSenseWdd
-This is tiny test automation tool for dynamic debug with webdriver incude Selenium, Appium. And you can use this as library for your test automation project with webdriver in any java ide, it's very easy to deploy and use. Now support many webdriver type include chrome, firefox, safari, ios, and android.
+This is tiny test automation tool for dynamic debug with webdriver incude Selenium, Appium. And you can use this as library for your test automation project with webdriver by any java ide, it's very easy to deploy and use. Now support some webdriver types include chrome, firefox, safari, ios, and android.
 # Release History
 - MteSenseWdd beta 0.1.1 : support Selenium and Appium with webdriver. 
 # Requirements
