@@ -117,6 +117,7 @@ For example :
 - In target method, the webdriver parameter must be same to what you have created.
 - Sometime you also can create java file to invoke MteSenseLoader like standalone java file to handle target java file.
 - For this tool, just help you to debug your operation with webdriver include selenium and appium, you can't use debug operation to replace your real automation script.
+- If you use IDEA, please uncheck with "Use "Safe Write"" item under Preferences-->Appearance&Behavior-->System Settings
 # Screencapture
 ![ MteSenseWdd](https://github.com/PandaSense/MteSenseWdd/blob/master/image/MteSenseWddPic001.png)
 
