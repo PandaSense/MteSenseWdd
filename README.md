@@ -14,6 +14,7 @@ You need add these jars as libraries in your project to use MteSenseWdd function
 Add MteSense-Wdd-beta-0.1.1.jar into your project classpath.
 #### Step 2 :
 Create java file to build webdriver, please pay attention to your driver type like below:
+
 ```java
 package com.mte.wdd.test;
 
@@ -69,7 +70,40 @@ public class MteSenseWdadTest {
 }
 
 ```
+#### MteSenseInstanceUpdate
+```java
+import org.openqa.selenium.chrome.ChromeDriver;
 
+/**
+ * Created by java on 20/07/2017.
+ */
+public class MteSenseInstanceUpdate {
+
+    public static void runDynamicAction(ChromeDriver driver) {
+
+        driver.findElementById("kw").sendKeys("Testerhome");
+        driver.findElementById("su").click();
+//        driver.get("http://wwww.baidu.com");
+
+    }
+
+}
+
+```
+
+#### Please pay attention to following code:
+
+```java
+        MteSenseLoader loader = new MteSenseLoader();
+        loader.senseLoader("chrome","./src/MteSenseInstanceUpdate.java", "MteSenseInstanceUpdate", "http://www.baidu.com", "runDynamicAction", driver);
+```
+There are 6 parameters for this method as below:
+- driver type : the driver type should be same with what you have created in your script.
+- full file path : this file shoud be target file what you need create for modifying. That means you will update this file to debug with webdriver.
+- full class name : this class name should be same with your target java file for modifying. If this java file hasn't package name, you can input class name, otherwise you need input package name+class name like com.xxx.xxx.xxx.MteSenseInstanceUpdate.
+- tartget url : sometime you can keep this parameter as null, because when you debug mobile webdriver like iosdriver or androiddriver, you don't need url.
+- target method name in your target java file for modifying, most of time you need debug operation in this method
+- your webriver instance what you have created
 
 # Declaration
 In this project, some source codes come from internet and other test automation project, the purpose is only for sharing and communication with everyone who like test automation. If you don't want to integrate your code, please tell me to remove them. Thanks
