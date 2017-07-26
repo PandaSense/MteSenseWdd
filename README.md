@@ -5,7 +5,7 @@ This is tiny test automation tool for dynamic debug with webdriver incude Seleni
 - MteSenseWdd beta 0.1.1 : support Selenium and Appium with webdriver. 
 # Requirements
 You need add these jars as libraries in your project to use MteSenseWdd function.
-- JDK 8 or above
+- JDK 8 or above, you need JDK to compile java code.
 - selenium standalone jar
 - appium java client
 - junit(optional) 
