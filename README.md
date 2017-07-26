@@ -29,7 +29,7 @@ You need add these jars as libraries in your project to use MteSenseWdd function
 - add MteSense-Wdd-beta-x.x.x.jar into your test automation project.
 # How to use
 #### Step 1 :
-Add MteSense-Wdd-beta-0.1.1.jar into your project classpath.
+Add MteSense-Wdd-beta-x.x.x.jar into your project classpath.
 #### Step 2 :
 Create java file to build webdriver, please pay attention to your driver type like below:
 #### MteSenseWdadTest
