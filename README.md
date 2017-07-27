@@ -19,6 +19,7 @@ public static void runDynamicAction(ChromeDriver driver) {
 - handle url as blank.
 ### MteSenseWdd beta 0.2.0
 - add new method to build senseLoader() function.
+
 ```java
         MteSenseLoader loader = new MteSenseLoader();
 
@@ -108,6 +109,7 @@ public class MteSenseWdadTest {
 
 ```
 #### MteSenseInstanceUpdate
+
 ```java
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -141,20 +143,25 @@ public class MteSenseInstanceUpdate {
 - tartget url : sometime you can keep this parameter as null, because when you debug mobile webdriver like iosdriver or androiddriver, you don't need url.
 - target method name in your target java file for modifying, most of time you need debug operation in this method
 - your webriver instance what you have created.
+
 #### Step 3 :
 For example :
 - Run MteSenseWdadTest as junit
 - Change your target method code(runDynamicAction()) for your new operation and save to debug with webdriver.
 - At last enjoy it ^-^.
+
 #### Some important things
+
 - You shoul be sure about you can start webdriver with your script.
 - You only need change code in target method in your target java file for modifying.
 - Every time when you update your target method like runDynamicAction() and save, the MteSenseLoader method will compile target java file to execute new operation what you have created.
 - In target method, the webdriver parameter must be same to what you have created.
 - Sometime you also can create java file to invoke MteSenseLoader like standalone java file to handle target java file.
 - For this tool, just help you to debug your operation with webdriver include selenium and appium, you can't use debug operation to replace your real automation script.
-- If you use IDEA, please uncheck with "Use "Safe Write"" item under Preferences-->Appearance&Behavior-->System Settings
+- If you use IDEA, please uncheck with "Use "Safe Write"" item under Preferences-->Appearance&Behavior-->System Settings.
+
 # Screencapture
+
 ![ MteSenseWdd](https://github.com/PandaSense/MteSenseWdd/blob/master/image/MteSenseWddPic001.png)
 
 # Declaration
