@@ -1,8 +1,11 @@
 # MteSenseWdd
 This is tiny test automation tool for dynamic debug with webdriver incude Selenium, Appium. And you can use this as library for your test automation project with webdriver by any java ide, it's very easy to deploy and use. Now support some webdriver types include chrome, firefox, safari, ios, and android.
 # Release History
-- MteSenseWdd beta 0.2.1 : handle url as blank.
-- MteSenseWdd beta 0.2.0 : add new method to build senseLoader() function.
+
+### MteSenseWdd beta 0.2.1
+- handle url as blank.
+### MteSenseWdd beta 0.2.0
+- add new method to build senseLoader() function.
 ```java
         MteSenseLoader loader = new MteSenseLoader();
 
@@ -17,9 +20,10 @@ This is tiny test automation tool for dynamic debug with webdriver incude Seleni
         loader.senseLoader(options,driver);
 
 ```
-
-- MteSenseWdd beta 0.1.2 : update description for action codes.
-- MteSenseWdd beta 0.1.1 : support Selenium and Appium with webdriver. 
+### MteSenseWdd beta 0.1.2
+- update description for action codes.
+### MteSenseWdd beta 0.1.1
+- upport Selenium and Appium with webdriver. 
 # Requirements
 You need add these jars as libraries in your project to use MteSenseWdd function.
 - JDK 8 or above, you need JDK to compile java code.
