@@ -17,6 +17,7 @@ public static void runDynamicAction(ChromeDriver driver) {
 ```
 ### MteSenseWdd beta 0.2.1
 - handle url as blank.
+
 ### MteSenseWdd beta 0.2.0
 - add new method to build senseLoader() function.
 
@@ -36,21 +37,27 @@ public static void runDynamicAction(ChromeDriver driver) {
 ```
 ### MteSenseWdd beta 0.1.2
 - update description for action codes.
+
 ### MteSenseWdd beta 0.1.1
 - upport Selenium and Appium with webdriver. 
+
 # Requirements
 You need add these jars as libraries in your project to use MteSenseWdd function.
 - JDK 8 or above, you need JDK to compile java code.
 - selenium standalone jar
 - appium java client
 - junit(optional) 
+
 # Installation
 - add MteSense-Wdd-beta-x.x.x.jar into your test automation project.
+
 # How to use
 #### Step 1 :
 Add MteSense-Wdd-beta-x.x.x.jar into your project classpath.
+
 #### Step 2 :
 Create java file to build webdriver, please pay attention to your driver type like below:
+
 #### MteSenseWdadTest
 
 ```java
@@ -136,6 +143,7 @@ public class MteSenseInstanceUpdate {
         MteSenseLoader loader = new MteSenseLoader();
         loader.senseLoader("chrome","./src/MteSenseInstanceUpdate.java", "MteSenseInstanceUpdate", "http://www.baidu.com", "runDynamicAction", driver);
 ```
+
 #### There are 6 parameters for this method as below:
 - driver type : the driver type should be same with what you have created in your script.
 - full file path : this file shoud be target file what you need create for modifying. That means you will update this file to debug with webdriver.
