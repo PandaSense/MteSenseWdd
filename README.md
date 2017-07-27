@@ -3,6 +3,17 @@ This is tiny test automation tool for dynamic debug with webdriver incude Seleni
 # Release History
 ### MteSenseWdd beta 0.3.0
 - Update MteSenseLoader to support non static method.
+```java
+// Ok
+public void runDynamicAction(ChromeDriver driver) {
+.........
+}
+// Ok
+public static void runDynamicAction(ChromeDriver driver) {
+.........
+}
+
+```
 ### MteSenseWdd beta 0.2.1
 - handle url as blank.
 ### MteSenseWdd beta 0.2.0
