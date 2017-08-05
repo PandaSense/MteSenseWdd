@@ -39,7 +39,7 @@ public static void runDynamicAction(ChromeDriver driver) {
 - update description for action codes.
 
 ### MteSenseWdd beta 0.1.1
-- upport Selenium and Appium with webdriver. 
+- support Selenium and Appium with webdriver. 
 
 # Requirements
 You need add these jars as libraries in your project to use MteSenseWdd function.
